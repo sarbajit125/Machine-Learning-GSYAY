@@ -1,0 +1,62 @@
+1. Programming Question
+A.
+#python program to find Area of Triangle wih input
+h=float(input("Enter the height of triangle "))
+b=float(input("Enter the base of triangle"))
+area=0.5*(h*b)
+print(area)
+B.
+a = [15,20,35,40,45,30,35,60]
+n=len(a)
+print("The orginal list elements are ",str(a))
+#print the item at a particular index
+x=int(input("Enter the index "))
+print(a[x])
+#print the first 3 items
+print(a[:3])
+#print the last 3 items
+print(a[-3:])
+#print start to third last item
+print(a[:n-3])
+C.
+myList = ['request', 'source', 'repository', 'branch']
+print("Mylist in list format\n",str(myList))
+tuplist=tuple(myList)
+print("New array in tuple format\n",tuplist)
+D.
+new_open_string = "john likes {} {}."
+print(new_open_string.format("open-source", "software"))  
+D2.
+sammy_string = "Sammy loves {} {}, and has {} {}." 
+print(sammy_string.format("open-source", "software", 5, "balloons")) 
+E.
+print("john is a {3}, {2}, and {1} {0}!".format("happy", "smiling", "blue", "shark"))
+F.
+nl=[]
+for x in range(150, 270):
+    if (x%7==0) and (x%5==0):
+        nl.append(str(x))
+print (','.join(nl))
+G.
+def Remove(duplicate):
+    final_list = []
+    for num in duplicate:
+        if num not in final_list:
+            final_list.append(num)
+    return final_list
+     
+# Driver Code
+duplicate = [10,20,30,40,50,60,70]
+print("original list is \n",duplicate)
+print("New list is \n",Remove(duplicate))
+2.
+A.scisaB nohtyP
+B.re
+C.Both of the above
+D.(‘M’,’*’,’*’,’*’,’i’,’n’,’*’)
+E.[6.2202, ‘aboy’, False, 87]
+F.L*oo#frph#e|#wkhq1
+G.None of these
+H.5, 2, 'gfg'
+I.  1, 2, 3, 4
+J.Cannot divide by 0 GFG
